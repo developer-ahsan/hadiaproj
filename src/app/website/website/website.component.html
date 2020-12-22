@@ -1,0 +1,364 @@
+<!-- banner -->
+<div class="agileits-banner jarallax">
+    <div class="bnr-agileinfo">
+        <app-webheader></app-webheader>
+        <router-outlet></router-outlet>
+    </div>
+</div>
+<div *ngIf="router.url === '/website'">
+    <div id="categories" class="about-w3agile">
+        <div class="container">
+            <h2 class="w3ls_head">Welcome </h2>
+            <p class="w3agile">The wedding dress is an iconic part of the wedding process. Selecting your wedding dress is a very unique and personal experience where the bride makes a statement about who she is as a person and how she wants to be seen and remembered on
+                her day. For many people, it is also turning a dream into reality.</p>
+            <div class="abt-agile-info">
+                <a [routerLink]="['products/mehndi']">
+                    <div class="col-sm-4 abt-agile-info-left">
+                        <div class="agile-info-first agileits">
+                            <img src="../../../assets/wedding-dress.png" class="icon featured" aria-hidden="true">
+                            <!-- <i class="fa fa-heart-o icon featured" aria-hidden="true"></i> -->
+                            <h4>Mehndi</h4>
+                            <p>The “Mehndi” is actually a henna festivity which is held a day or two prior to the wedding. It's basically the most spiced up event of the whole marriage.</p>
+                        </div>
+                    </div>
+                </a>
+                <a [routerLink]="['products/baraat']">
+                    <div class="col-sm-4 abt-agile-info-left">
+                        <div class="agile-info-middle agileits">
+                            <img src="../../../assets/wedding-dresss.png" class="icon featured" aria-hidden="true">
+                            <h4>Baraat</h4>
+                            <p>The Baraat comes next, which involves the 'departing ceremony' for the bride following the arrival of the groom in a procession to take her away.</p>
+                        </div>
+                    </div>
+                </a>
+                <a [routerLink]="['products/Walima']">
+                    <div class="col-sm-4 abt-agile-info-left">
+                        <div class="agile-info-last agileits">
+                            <img src="../../../assets/bride.png" class="icon featured" aria-hidden="true">
+                            <h4>Walima</h4>
+                            <p>Latest Walima Dresses Designs Collection consists of Indian & Pakistani Designer Asian wedding gowns, frocks..</p>
+                        </div>
+                    </div>
+                </a>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services" class="services">
+        <div class="services-grids">
+            <a href="" data-toggle="modal" data-target="#myModal1">
+                <div class="col-md-3 col-xs-3 serv-agileinfo view view-ninth">
+                    <img src="/assets/website/images/g1.jpg" class="img-responsive" alt="" />
+                    <div class="mask mask-1"></div>
+                    <div class="mask mask-2"></div>
+                    <div class="content">
+                        <h5>Mehndi Dress</h5>
+                        <h5>PKR: 390000</h5>
+                    </div>
+                </div>
+            </a>
+            <div class="col-md-3 col-xs-3 serv-agileinfo serv-w3text">
+                <h3>DressCode: 090</h3>
+                <p>Sed interdum interdum accumsan. Aenean nec purus ac orci finibus facilisis placerat ipsum nisl.</p>
+            </div>
+            <a href="" data-toggle="modal" data-target="#myModal1">
+                <div class="col-md-3 col-xs-3 serv-agileinfo view view-ninth agileits-w3layouts">
+                    <img src="/assets/website/images/g2.jpg" class="img-responsive" alt="" />
+                    <div class="mask mask-1"></div>
+                    <div class="mask mask-2"></div>
+                    <div class="content">
+                        <h5>Mehndi Dress</h5>
+                        <h5>PKR: 390000</h5>
+                    </div>
+                </div>
+            </a>
+            <div class="col-md-3 col-xs-3 serv-agileinfo serv-w3text">
+                <h3>DressCode: 090</h3>
+                <p>Sed interdum interdum accumsan. Aenean nec purus ac orci finibus facilisis placerat ipsum nisl.</p>
+
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+        <div class="services-grids agileits-w3layouts">
+
+
+            <div class="col-md-3 col-xs-3 serv-agileinfo serv-w3text">
+                <h3>DressCode: 090</h3>
+                <p>Sed interdum interdum accumsan. Aenean nec purus ac orci finibus facilisis placerat ipsum nisl.</p>
+            </div>
+            <a href="" data-toggle="modal" data-target="#myModal1">
+                <div class="col-md-3 col-xs-3 serv-agileinfo view view-ninth">
+                    <img src="/assets/website/images/g3.jpg" class="img-responsive" alt="" />
+                    <div class="mask mask-1"></div>
+                    <div class="mask mask-2"></div>
+                    <div class="content">
+                        <h5>Mehndi Dress</h5>
+                        <h5>PKR: 390000</h5>
+                    </div>
+                </div>
+            </a>
+            <div class="col-md-3 col-xs-3 serv-agileinfo serv-w3text">
+                <h3>DressCode: 090</h3>
+                <p>Sed interdum interdum accumsan. Aenean nec purus ac orci finibus facilisis placerat ipsum nisl.</p>
+            </div>
+            <a href="" data-toggle="modal" data-target="#myModal1">
+                <div class="col-md-3 col-xs-3 serv-agileinfo view view-ninth">
+                    <img src="/assets/website/images/g4.jpg" class="img-responsive" alt="" />
+                    <div class="mask mask-1"></div>
+                    <div class="mask mask-2"></div>
+                    <div class="content">
+                        <h5>Mehndi Dress</h5>
+                        <h5>PKR: 390000</h5>
+                    </div>
+                </div>
+            </a>
+            <div class="clearfix"> </div>
+        </div>
+    </div>
+
+    <div id="gallery" class="gallery wthree">
+        <div class="container">
+            <h3 class="w3ls_head">Our Products</h3>
+            <p class="w3agile">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
+            <div class="gallery-agileinfo">
+                <div class="col-md-6 col-xs-6 gallery-w3lstop">
+                    <figure class="effect-bubba">
+                        <a href="" data-toggle="modal" data-target="#myModal1">
+                            <img src="/assets/website/images/g6.jpg" alt="" class="img-responsive" />
+                            <div class="figcaption">
+                                <h4>Mehndi Dress</h4>
+                                <p style="padding: 0px;">PKR: 100000</p>
+                                <p style="padding: 0px;">Dress Code: 900</p>
+                                <p style="padding: 0px;">In sit amet sapien eros Integer dolore magna aliqua</p>
+                            </div>
+                        </a>
+                    </figure>
+                </div>
+                <div class="col-md-6 col-xs-6 gallery-w3lstop">
+                    <figure class="effect-bubba">
+                        <a href="" data-toggle="modal" data-target="#myModal1">
+                            <img src="/assets/website/images/g5.jpg" alt="" class="img-responsive" />
+                            <div class="figcaption">
+                                <h4>Mehndi Dress</h4>
+                                <p style="padding: 0px;">PKR: 100000</p>
+                                <p style="padding: 0px;">Dress Code: 900</p>
+                                <p style="padding: 0px;">In sit amet sapien eros Integer dolore magna aliqua</p>
+                            </div>
+                        </a>
+                    </figure>
+                </div>
+                <div class="col-md-4 col-xs-4 gallery-w3bottom">
+                    <figure class="effect-bubba">
+                        <a href="" data-toggle="modal" data-target="#myModal1">
+                            <img src="/assets/website/images/g1.jpg" alt="" class="img-responsive" />
+                            <div class="figcaption">
+                                <h4>Mehndi Dress</h4>
+                                <p style="padding: 0px;">PKR: 100000</p>
+                                <p style="padding: 0px;">Dress Code: 900</p>
+                                <p style="padding: 0px;">In sit amet sapien eros Integer dolore magna aliqua</p>
+                            </div>
+                        </a>
+                    </figure>
+                </div>
+                <div class="col-md-4 col-xs-4 gallery-w3bottom">
+                    <figure class="effect-bubba">
+                        <a href="" data-toggle="modal" data-target="#myModal1">
+                            <img src="/assets/website/images/g2.jpg" alt="" class="img-responsive" />
+                            <div class="figcaption">
+                                <h4>Mehndi Dress</h4>
+                                <p style="padding: 0px;">PKR: 100000</p>
+                                <p style="padding: 0px;">Dress Code: 900</p>
+                                <p style="padding: 0px;">In sit amet sapien eros Integer dolore magna aliqua</p>
+                            </div>
+                        </a>
+                    </figure>
+                </div>
+                <div class="col-md-4 col-xs-4 gallery-w3bottom">
+                    <figure class="effect-bubba">
+                        <a href="" data-toggle="modal" data-target="#myModal1">
+                            <img src="/assets/website/images/g3.jpg" alt="" class="img-responsive" />
+                            <div class="figcaption">
+                                <h4>Mehndi Dress</h4>
+                                <p style="padding: 0px;">PKR: 100000</p>
+                                <p style="padding: 0px;">Dress Code: 900</p>
+                                <p style="padding: 0px;">In sit amet sapien eros Integer dolore magna aliqua</p>
+                            </div>
+                        </a>
+                    </figure>
+                </div>
+                <div class="col-md-6 col-xs-6 gallery-w3lstop">
+                    <figure class="effect-bubba">
+                        <a href="" data-toggle="modal" data-target="#myModal1">
+                            <img src="/assets/website/images/g7.jpg" alt="" class="img-responsive" />
+                            <div class="figcaption">
+                                <h4>Mehndi Dress</h4>
+                                <p style="padding: 0px;">PKR: 100000</p>
+                                <p style="padding: 0px;">Dress Code: 900</p>
+                                <p style="padding: 0px;">In sit amet sapien eros Integer dolore magna aliqua</p>
+                            </div>
+                        </a>
+                    </figure>
+                </div>
+                <div class="col-md-6 col-xs-6 gallery-w3lstop">
+                    <figure class="effect-bubba">
+                        <a href="" data-toggle="modal" data-target="#myModal1">
+                            <img src="/assets/website/images/g8.jpg" alt="" class="img-responsive" />
+                            <div class="figcaption">
+                                <h4>Mehndi Dress</h4>
+                                <p style="padding: 0px;">PKR: 100000</p>
+                                <p style="padding: 0px;">Dress Code: 900</p>
+                                <p style="padding: 0px;">In sit amet sapien eros Integer dolore magna aliqua</p>
+                            </div>
+                        </a>
+                    </figure>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+    </div>
+    <div id="team" class="about team" style="padding: 0px;">
+        <div class="container">
+            <h3 class="w3ls_head">Our Team</h3>
+            <p class="w3agile">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
+            <div class="team-agileinfo w3-agile">
+                <div class="col-md-3 col-sm-6 col-xs-6 team-grids w3-agile">
+                    <div class="thumbnail team-agileits">
+                        <img src="/assets/website/images/t1.jpg" class="img-responsive" alt="...">
+                        <div class="w3agile-caption w3-agile">
+                            <h4>Hadia</h4>
+                            <p>Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary</p>
+                            <div class="social-icon">
+                                <a href="#" class="social-button twitter"><i class="fa fa-twitter"></i></a>
+                                <a href="#" class="social-button facebook"><i class="fa fa-facebook"></i></a>
+                                <a href="#" class="social-button google"><i class="fa fa-google-plus"></i></a>
+                                <a href="#" class="social-button dribbble"><i class="fa fa-dribbble"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-6 team-grids">
+                    <div class="thumbnail team-agileits w3-agile">
+                        <img src="/assets/website/images/t4.jpg" class="img-responsive" alt="...">
+                        <div class="w3agile-caption">
+                            <h4>Hadia</h4>
+                            <p>Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary</p>
+                            <div class="social-icon">
+                                <a href="#" class="social-button twitter"><i class="fa fa-twitter"></i></a>
+                                <a href="#" class="social-button facebook"><i class="fa fa-facebook"></i></a>
+                                <a href="#" class="social-button google"><i class="fa fa-google-plus"></i></a>
+                                <a href="#" class="social-button dribbble"><i class="fa fa-dribbble"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-6 team-grids">
+                    <div class="thumbnail team-agileits">
+                        <img src="/assets/website/images/t1.jpg" class="img-responsive" alt="...">
+                        <div class="w3agile-caption agile">
+                            <h4>Hadia</h4>
+                            <p>Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary</p>
+                            <div class="social-icon">
+                                <a href="#" class="social-button twitter"><i class="fa fa-twitter"></i></a>
+                                <a href="#" class="social-button facebook"><i class="fa fa-facebook"></i></a>
+                                <a href="#" class="social-button google"><i class="fa fa-google-plus"></i></a>
+                                <a href="#" class="social-button dribbble"><i class="fa fa-dribbble"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-6 team-grids">
+                    <div class="thumbnail team-agileits agile">
+                        <img src="/assets/website/images/t4.jpg" class="img-responsive" alt="...">
+                        <div class="w3agile-caption agile">
+                            <h4>Hadia</h4>
+                            <p>Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary</p>
+                            <div class="social-icon">
+                                <a href="#" class="social-button twitter"><i class="fa fa-twitter"></i></a>
+                                <a href="#" class="social-button facebook"><i class="fa fa-facebook"></i></a>
+                                <a href="#" class="social-button google"><i class="fa fa-google-plus"></i></a>
+                                <a href="#" class="social-button dribbble"><i class="fa fa-dribbble"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="contact">
+        <div class="container">
+            <h3 class="w3ls_head">Contact Us</h3>
+            <p class="w3agile">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
+            <div class="contact-info">
+                <div class="col-md-4 contact-grids">
+                    <div class="cnt-address">
+                        <h3>Address</h3>
+                        <h4>Headquarters</h4>
+                        <p>123 T. Globel Place.
+                            <span>CG 09-123</span> NewYork, Ba. 4567
+                        </p>
+                        <h4>Get In Touch</h4>
+                        <p>Telephone: +1 234 567 2222
+                            <span>Fax: +122 234 567 1111</span> E-mail: <a href="mailto:info@example.com">mail@example.com</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-8 contact-grids">
+                    <h4 class="cnt-text">Gnissimos voluptatum deleniti atque corrupti quos dolores et quas</h4>
+                    <p>Landitiis atque corrupti quos dolores et quas molestias excepturi sint occaecat atque corrupti quos dolores et quas molestias excepturi sint occaecat officia deserunt mollitia laborum et dolorum </p>
+                    <div class="contact-form">
+                        <h3>Drop Us a Line</h3>
+                        <form action="#" method="post">
+                            <textarea placeholder="Message" required=""></textarea>
+                            <input type="text" placeholder="Name" required="">
+                            <input type="email" placeholder="Email" required="">
+                            <input type="submit" value="SEND">
+                        </form>
+                    </div>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="myModal1" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Order Product (090)</h4>
+            </div>
+            <div class="modal-body" style="text-align: left;">
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="email">Name:</label>
+                        <input type="text" class="form-control" id="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address:</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">Phone:</label>
+                        <input type="text" class="form-control" id="pwd">
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">Address:</label>
+                        <textarea type="text" class="form-control" id="pwd"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-default">Order</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<app-webfooter></app-webfooter>

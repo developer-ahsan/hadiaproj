@@ -1,0 +1,29 @@
+<!-- navigation -->
+<div class="top-nav w3-agiletop">
+    <div class="container">
+        <div class="navbar-header w3llogo">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <h1><a [routerLink]="['']">Bridal Dress</a></h1>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="w3menu navbar-right">
+                <ul class="nav navbar">
+                    <li><a [routerLink]="['']" routerLinkActive="active" routerLinkActiveOptions="{exact:true}" class="active">Home</a></li>
+                    <li *ngIf="route.url === '/website'"><a href="#about" (click)="scrolltoid('categories');$event.preventDefault();" class="scroll">Categories</a></li>
+                    <li *ngIf="route.url === '/website'"><a href="#services" (click)="scrolltoid('services');$event.preventDefault();" class="scroll">Latest</a></li>
+                    <li><a [routerLink]="['products/all']" routerLinkActive="router-link-active">Our Products</a></li>
+                    <li *ngIf="route.url === '/website'"><a href="#team" (click)="scrolltoid('team');$event.preventDefault();" class="scroll">Our Team</a></li>
+                    <li *ngIf="route.url === '/website'"><a href="#contact" (click)="scrolltoid('contact');$event.preventDefault();" class="scroll">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+    </div>
+</div>
+<!-- //navigation -->
