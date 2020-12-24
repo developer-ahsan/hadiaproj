@@ -935,7 +935,7 @@ figure.effect-bubba:hover p {
 }
 
 .wthree-almub {
-    background-size: cover;
+    background-size: contain;
     min-height: 234px;
     -webkit-transition: all 3s;
     -moz-transition: all 3s;
